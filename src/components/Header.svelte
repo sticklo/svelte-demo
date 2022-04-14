@@ -246,15 +246,16 @@
     display: flex;
     justify-content: center;
     position: relative;
-    height: 400px;
+    height: 300px;
     color: #feda4a;
-    font-size: 600%;
-    font-weight: 600;
+    font-size: 200%;
+    font-weight: 200;
     letter-spacing: 6px;
     line-height: 150%;
     perspective: 400px;
     text-align: justify;
     overflow: hidden;
+    margin-top: 2.5rem;
   }
 
   @media only screen and (max-width: 1280px) {
