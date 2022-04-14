@@ -170,23 +170,19 @@
     padding: 0;
   }
   .hero__header {
-    background-color: #ccc;
+    background-color: black;
     background-blend-mode: multiply;
-    background-image: url("https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: 50% 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     overflow: hidden;
     
+    
   }
 
   .hero__main {
-    padding: 1.9rem 0 0 0;
+    padding: 0;
     display: flex;
     justify-content: center;
   }
