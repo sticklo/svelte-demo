@@ -1,5 +1,5 @@
-@font-face { font-family: Delicious; src: url('Galacticagrid-8Mr7J.ttf'); } 
-@font-face { font-family: Delicious; font-weight: bold; src: url('Galacticagrid-8Mr7J.ttf');}
+@font-face { font-family: 'Galacticagrid'; src: url('Galacticagrid-8Mr7J.ttf'); } 
+@font-face { font-family: 'Galacticagrid'; font-weight: bold; src: url('Galacticagrid-8Mr7J.ttf');}
 html, body {
 	position: relative;
 	width: 100%;
