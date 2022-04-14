@@ -182,6 +182,7 @@
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    
   }
 
   .hero__main {
@@ -246,7 +247,7 @@
     display: flex;
     justify-content: center;
     position: relative;
-    height: 300px;
+    height: 150px;
     color: #feda4a;
     font-size: 200%;
     font-weight: 200;
