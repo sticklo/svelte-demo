@@ -186,7 +186,7 @@
   }
 
   .hero__main {
-    padding: 8.3rem 0 0 0;
+    padding: 1.9rem 0 0 0;
     display: flex;
     justify-content: center;
   }
@@ -200,6 +200,8 @@
 
   .hero__img {
     display: block;
+    max-width: 100%;
+    height: auto;
   }
 
   .hero__btn {
