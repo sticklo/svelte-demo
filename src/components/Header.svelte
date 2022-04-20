@@ -153,7 +153,7 @@
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quas
             itaque debitis atque sunt dolorem fugit delectus, illum, aliquid
             quibusdam laudantium molestias repellat mollitia optio veritatis,
-            tenetur placeat at nostrum.
+            tenetur placeat at ENDDDDDDDD.
           </p>
         </div>
       </section>
@@ -287,7 +287,7 @@
       opacity: 1;
     }
     100% {
-      top: -6000px;
+      top: -3000px;
       transform: rotateX(25deg) translateZ(-2500px);
       opacity: 0;
     }

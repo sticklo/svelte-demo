@@ -34,7 +34,6 @@
   section {
     background-image: url("/images/mid-section-two-bg.svg");
     background-repeat: no-repeat;
-    height: 883px;
     margin: 0;
     padding: 0;
     position: relative;
@@ -46,6 +45,7 @@
     line-height: 60px;
     text-align: center;
     padding-top: 56px;
+    margin: 0;
   }
 
   .banny__Gallery {

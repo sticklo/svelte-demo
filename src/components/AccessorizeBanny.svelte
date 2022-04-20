@@ -18,7 +18,6 @@ let info = "images/banny-info-icon.svg";
   section {
     background-image: url("/images/accessorize-banny-bg.svg");
     background-repeat: no-repeat;
-    height: 931px;
     margin: 0;
     padding: 0;
     position: relative;

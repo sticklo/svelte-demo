@@ -13,13 +13,13 @@
   section {
     background-image: url("/images/mid-section-one-bg.svg");
     background-repeat: no-repeat;
-    height: 883px;
     margin: 0;
-    padding: 0;
+    padding: 15rem 0;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
+    /* min-height: 931px; */
   }
 
   h1 {
@@ -28,17 +28,25 @@
     font-size: 50px;
     line-height: 60px;
     text-shadow: 0px 0px 15px #000000;
+    margin: 0;
   }
   @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
     h1 {
-      padding: 4rem;
+  
       font-size: 40px;
+      margin-bottom: 10rem;
+       padding: 2rem;
+      
+    }
+
+    section {
+      padding: 0;
     }
   }
 
   @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
     h1 {
-      padding: 4rem;
+      padding: 0 4rem;
       font-size: 45px;
     }
   }
