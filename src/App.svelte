@@ -1,33 +1,22 @@
 <script lang="ts">
-	import Header from "./components/Header.svelte"
-	 let name = 'Sticklo';
+  import Header from "./components/Header.svelte";
+  import AccessorizeBanny from "./components/AccessorizeBanny.svelte";
+  import MidSectionOne from "./components/MidSectionOne.svelte";
+  import MidSectionTwo from "./components/MidSectionTwo.svelte";
+  import BannyProfile from "./components/BannyProfile.svelte"
 </script>
 
-
-<Header /> 
-<main>
-	<h1>Hello {name}</h1>
-	<p> Welcome to BannyVerse</p>
-</main>
+<Header />
+<AccessorizeBanny />
+<MidSectionOne />
+<MidSectionTwo />
+<BannyProfile />
+<main />
 
 <style>
-	main {
-		text-align: center;
-		padding: 1em;
-		max-width: 240px;
-		margin: 0 auto;
-	}
-
-	h1 {
-		color: #ff3e00;
-		text-transform: uppercase;
-		font-size: 4em;
-		font-weight: 100;
-	}
-
-	@media (min-width: 640px) {
-		main {
-			max-width: none;
-		}
-	}
+  @media (min-width: 640px) {
+    main {
+      max-width: none;
+    }
+  }
 </style>

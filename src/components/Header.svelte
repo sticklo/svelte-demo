@@ -2,32 +2,32 @@
   let src = "images/bannyversefont.svg";
   import Particles from "svelte-particles";
 
-  let particlesConfig ={
+  let particlesConfig = {
     particles: {
       number: {
         value: 180,
         density: {
           enable: true,
-          value_area: 800
-        }
+          value_area: 800,
+        },
       },
       color: {
-        value: "#ffffff"
+        value: "#ffffff",
       },
       shape: {
         type: "star",
         stroke: {
           width: 0,
-          color: "#000000"
+          color: "#000000",
         },
         polygon: {
-          nb_sides: 12
+          nb_sides: 12,
         },
         image: {
           src: "",
           width: 0,
-          height: 0
-        }
+          height: 0,
+        },
       },
       opacity: {
         value: 0.4,
@@ -36,18 +36,18 @@
           enable: false,
           speed: 0.2,
           opacity_min: 0.1,
-          sync: false
-        }
+          sync: false,
+        },
       },
       size: {
         value: 3,
         random: true,
         anim: {
-          enable: false
-        }
+          enable: false,
+        },
       },
       line_linked: {
-        enable: false
+        enable: false,
       },
       move: {
         enable: true,
@@ -60,51 +60,51 @@
         attract: {
           enable: false,
           rotateX: 600,
-          rotateY: 1200
-        }
-      }
+          rotateY: 1200,
+        },
+      },
     },
     interactivity: {
       detect_on: "canvas",
       events: {
         onhover: {
           enable: false,
-          mode: "grab"
+          mode: "grab",
         },
         onclick: {
           enable: true,
-          mode: "push"
+          mode: "push",
         },
-        resize: true
+        resize: true,
       },
       modes: {
         grab: {
           distance: 140,
           line_linked: {
-            opacity: 0.5
-          }
+            opacity: 0.5,
+          },
         },
         bubble: {
           distance: 400,
           size: 40,
           duration: 2,
           opacity: 8,
-          speed: 3
+          speed: 3,
         },
         repulse: {
           distance: 200,
-          duration: 0.4
+          duration: 0.4,
         },
         push: {
-          particles_nb: 4
+          particles_nb: 4,
         },
         remove: {
-          particles_nb: 2
-        }
-      }
+          particles_nb: 2,
+        },
+      },
     },
-    retina_detect: true
-  }
+    retina_detect: true,
+  };
 </script>
 
 <header class="hero__header">
@@ -115,9 +115,9 @@
       <section class="star-wars">
         <div class="skew-wrapper">
           <div class="title">
-            <p class="intro">* Star Wars theme playing in the background *</p>
-            <p class="title">Episode IV</p>
-            <h1>A New Hope</h1>
+            <h1 class="intro">The BannyVerse</h1>
+            <p class="title" />
+            <h1>Welcome To The BannyVerse</h1>
           </div>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quas
@@ -177,8 +177,6 @@
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    
-    
   }
 
   .hero__main {
@@ -257,25 +255,12 @@
     margin-top: 2.5rem;
   }
 
-  @media only screen and (max-width: 1280px) {
-    .star-wars {
-      font-size: 450%;
-      line-height: 120%;
-    }
-  }
-
-  @media only screen and (max-width: 760px) {
-    .star-wars {
-      font-size: 250%;
-      line-height: 110%;
-    }
-  }
-
   .skew-wrapper {
     position: relative;
     top: 9999px;
     transform-origin: 50% 100%;
-    animation: drift 80s linear;
+    animation: drift 80s linear infinite;
+    animation-iteration-count: infinite;
   }
 
   .skew-wrapper .intro {
@@ -305,6 +290,25 @@
       top: -6000px;
       transform: rotateX(25deg) translateZ(-2500px);
       opacity: 0;
+    }
+  }
+
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+    .skew-wrapper {
+      font-size: 100%;
+      line-height: 110%;
+      padding: 8rem;
+    }
+
+    .hero__btn {
+      width: 20rem;
+    }
+  }
+
+  @media only screen and (max-width: 760px) {
+    .star-wars {
+      font-size: 150%;
+      line-height: 110%;
     }
   }
 </style>
